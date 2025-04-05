@@ -1,0 +1,26 @@
+# Ignore local Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore Terraform variable overrides
+*.tfvars
+*.tfvars.json
+
+# Ignore .terraform directory (plugins, modules, etc.)
+.terraform/
+
+# Ignore sensitive PEM keys
+*.pem
+
+# Ignore backup files
+*.backup
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
